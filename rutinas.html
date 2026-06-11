@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Beauty Glow</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <img src="imagenes/img8.jpg">
+        <div class="logo">K-Beauty Glow</div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="rutinas.html">Rutinas</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+
+    <!-- CUERPO -->
+     <style>
+    
+    body{
+      background: linear-gradient(to bottom, #ffe4ec, #fff);
+      color:#333;
+    }
+
+    header{
+      background:#ffb6c1;
+      color:white;
+      text-align:center;
+      padding:30px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1{
+      font-size:2.5rem;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:1.1rem;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:40px auto;
+    }
+
+    .rutina{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:white;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+    }
+
+    .card img{
+      width:100%;
+      height:220px;
+      object-fit:cover;
+    }
+
+    .card-content{
+      padding:20px;
+    }
+
+    .card-content h2{
+      color:#ff69b4;
+      margin-bottom:10px;
+    }
+
+    .card-content p{
+      line-height:1.6;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+      background:#ffb6c1;
+      color:white;
+    }
+
+    .boton{
+      display:inline-block;
+      margin-top:15px;
+      padding:10px 18px;
+      background:#ff69b4;
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      transition:0.3s;
+    }
+
+    .boton:hover{
+      background:#ff1493;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Rutina de Skincare Coreano</h1>
+    <p>Descubre los pasos esenciales para una piel saludable y luminosa ✨</p>
+  </header>
+
+  <div class="container">
+
+    <div class="rutina">
+
+      <div class="card">
+        <img src="imagenes/im17.webp" alt="Limpieza facial">
+        <div class="card-content">
+          <h2>1. Limpieza</h2>
+          <p>
+            Usa un limpiador a base de aceite y luego uno acuoso para eliminar maquillaje, grasa e impurezas.
+          </p>
+          <a href="#" class="boton">Ver más</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="imagenes/IM77.webp" alt="Tónico facial">
+        <div class="card-content">
+          <h2>2.hidratante</h2>
+          <p>
+            Un hidratante es esencial para la piel para equilibrar el ph.
+          </p>
+          <a href="#" class="boton">Ver más</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="imagenes/im16.webp" alt="Serum facial">
+        <div class="card-content">
+          <h2>3. Sérum</h2>
+          <p>
+            Los sérums contienen ingredientes concentrados para hidratar, iluminar o combatir imperfecciones.
+          </p>
+          <a href="#" class="boton">Ver más</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="imagenes/im15.webp" alt="Protector solar">
+        <div class="card-content">
+          <h2>4. Protector Solar</h2>
+          <p>
+            El protector solar es el paso más importante para prevenir manchas y envejecimiento prematuro.
+          </p>
+          <a href="#" class="boton">Ver más</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+        <p>© 2026 K-Beauty Glow | Diseño Web de Skincare Coreano</p>
+    </footer>
+
+</body>
+</html>
